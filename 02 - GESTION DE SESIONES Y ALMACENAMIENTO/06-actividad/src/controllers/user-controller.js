@@ -21,6 +21,7 @@ class UserController {
     if (user) {
       req.session.email = email;
       req.session.password = password;
+      req.session.role = user.role;
       return res.redirect("/perfil");
     }
     return res.redirect("/errorlogin");
