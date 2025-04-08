@@ -19,6 +19,8 @@
     "express": "^4.21.2",
     "express-session": "^1.18.1",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.0"
+    "mongoose": "^8.13.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
   }
 }
