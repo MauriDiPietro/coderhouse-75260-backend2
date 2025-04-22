@@ -3,3 +3,6 @@ process.on('beforeExit', (code) => {
 });
 
 console.log('EJECUTANDO MI PROGRAMA');
+
+
+// process.exit()

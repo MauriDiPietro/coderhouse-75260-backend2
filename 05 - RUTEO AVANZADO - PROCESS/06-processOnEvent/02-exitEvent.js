@@ -3,3 +3,5 @@ process.on('exit', (code) => {
 });
 
 console.log("EJECUTANDO MI PROGRAMA")
+
+process.exit(5)

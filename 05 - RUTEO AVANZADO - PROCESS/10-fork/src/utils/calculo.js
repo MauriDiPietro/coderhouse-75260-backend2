@@ -7,7 +7,7 @@ export const calculo = () => {
 };
 
 process.on('message', (msg) => {
-  if (msg == 'start') {
+  if (msg === 'start') {
     console.log(`Start calculo, PID: ${process.pid}`);
     const sum = calculo();
     process.send(sum);
