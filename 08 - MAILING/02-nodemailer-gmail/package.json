@@ -1,0 +1,19 @@
+{
+  "name": "01-nodemailer-ethereal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.2",
+    "nodemailer-express-handlebars": "^7.0.0"
+  }
+}
